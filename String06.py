@@ -6,5 +6,6 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    ans = '12345k6'.isdigit()
+    return ans
+print(main('s'))
