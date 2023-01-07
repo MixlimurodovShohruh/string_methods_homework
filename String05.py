@@ -6,5 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    ans = 'hello world'.capitalize()
+    return ans
+print(main('s'))
