@@ -6,5 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    ans = 'Mobile type xiomi'.index('x')
+    return ans
+print(main('s'))
