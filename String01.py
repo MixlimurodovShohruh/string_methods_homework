@@ -6,6 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    ans = 'hello world'.title()
-    return ans
-print(main('s'))
+    a=s.title()
+    return a 
