@@ -6,6 +6,5 @@ def main(s):
     Returns:
         bool: answer
     """
-    ans = 'helloworld'.isalpha()
-    return ans
-print(main('s'))
+    return s.isalpha()
+print(main('helloworld'))
