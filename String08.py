@@ -6,6 +6,5 @@ def main(s):
     Returns:
         bool: answer
     """
-    ans = 'HELLO WORLD'.isupper()
-    return ans
-print(main('s'))
+    return s.isupper()
+print(main('HELLO WORLD'))
