@@ -6,7 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    answer = s
-    return answer
+    return s
 x = main("google is a search engine".title())
 print(x)
