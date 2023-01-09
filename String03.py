@@ -6,6 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    ans = 'HELLO WORLD'.lower()
-    return ans
-print(main('s'))
+    return s.lower()
+print(main('HELLO WORLD'))
